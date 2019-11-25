@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pixi Rotation</title>
+</head>
+<body>
+    <div class="App">
+        <header>
+            <div class="container">
+                <h2>Pixi Rotation Example</h2>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="canvas-container py-5">
+                    <div class="canvas-wrapper">
+                        <canvas id="pixi-canvas"></canvas>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="slidecontainer">
+                        <input type="range" min="-90" max="90" value={yaw} class="slider" id="myRange" />
+                        <p>Value: <span id="demo">{yaw}</span></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
