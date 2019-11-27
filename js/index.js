@@ -5,7 +5,6 @@ import earrings from '../products/earrings_new';
 const canvas = document.getElementById('pixi-canvas');
 const yawSlider = document.getElementById('yaw-slider');
 const yawOutput = document.getElementById('yaw-output');
-const indexOutput = document.getElementById('index-output');
 const leftDegrees = document.getElementById('left-degrees');
 const leftIndex = document.getElementById('left-index');
 const rightDegrees = document.getElementById('right-degrees');
@@ -21,9 +20,6 @@ const pixiRenderer = new PIXI.autoDetectRenderer(640, 480, {
 
 const pixiStage = new PIXI.Container();
 
-const leftEarringContainer = new PIXI.Container();
-const rightEarringContainer = new PIXI.Container();
-
 const currentProduct = earrings[0].earringsProduct;
 
 const earringFiles = currentProduct.productImages[1].productViews.map(
@@ -31,7 +27,6 @@ const earringFiles = currentProduct.productImages[1].productViews.map(
 );
 
 let earringTextures;
-let productViewIndex;
 let productViewCount;
 let rightSprite;
 let leftSprite;
@@ -44,24 +39,14 @@ PIXI.loader
 function setup() {
     earringTextures = earringFiles.map(image => PIXI.loader.resources[image].texture);
 
-    const earringSprites = { left: [], right: [] };
-
     productViewCount = earringTextures.length;
     let defaultIndex = 0; //Math.round(earringTextures.length / 2) - 1;
-    productViewIndex = defaultIndex;
-
-
-    
 
     const leftX = (canvas.width / 2) / 2;
     const leftY = (canvas.height / 2);
     const rightY = (canvas.height / 2);
     const rightX = (canvas.width / 2) + leftX;
 
-    
-    const degreesPerIndex = 90 / productViewCount; //5.625
-    const startingDegree = 30;
-    const startingIndex = Math.round(startingDegree / degreesPerIndex);
 
     rightSprite = new PIXI.Sprite(earringTextures[defaultIndex]);
     rightSprite.anchor.set(0.5, 0.5);
@@ -79,6 +64,8 @@ function setup() {
     pixiStage.addChild(leftSprite);
     pixiStage.addChild(rightSprite);
     pixiRenderer.render(pixiStage);
+
+    onYawChange({target: { value: 0 }});
 }
 
 const adjustment = (90 / 16) + ((90 / 16) / 2);
