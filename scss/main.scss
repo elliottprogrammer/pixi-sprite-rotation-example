@@ -90,3 +90,10 @@ header, footer {
     background: #4CAF50;
     cursor: pointer;
   }
+
+  .split {
+      display: flex;
+  }
+  .split > div {
+      width: 50%;
+  }

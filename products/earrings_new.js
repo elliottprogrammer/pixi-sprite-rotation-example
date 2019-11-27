@@ -29,15 +29,22 @@ const earrings = [
         },
         {
           productViews: [
-            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_09.png',
-            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_08.png',
-            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_07.png',
-            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_06.png',
-            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_05.png',
-            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_04.png',
-            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_03.png',
-            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_02.png',
             'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_01.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_02.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_03.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_04.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_05.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_06.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_07.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_08.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_09.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_10.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_11.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_12.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_13.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_14.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_15.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Alex-Earrings-in-Bright-Red/Kendra_Scott_Alex_Red_16.png',
           ],
           w: 20, h: 189, offsetY: -20
         },
@@ -58,7 +65,7 @@ const earrings = [
       productImages: [
         {
           productViews: [
-            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/Danielle_Faceted_Blue_Illusion/Danielle_Faceted_Blue_Illusion_Hook.png',
+            'https://api1.facecake.com/apps/FaceScoutMain/assets/earrings/KendraScott_Jolie_RoseGoldOmbre/Jolie-Earrings-in-Rose-Gold_Hook.png',
           ],
           w: 19, h: 58, offsetY: -29
         },

@@ -17,13 +17,24 @@
             <div class="container">
                 <div class="canvas-container py-5">
                     <div class="canvas-wrapper">
-                        <canvas id="pixi-canvas"></canvas>
+                        <canvas id="pixi-canvas" style="transform: scale(-1, 1);"></canvas>
+                        <div class="split">
+                            <div>
+                                <p><span id="left-degrees"></span></p>
+                                <p><span id="left-index"></span></p>
+                            </div>
+                            <div>
+                                <p><span id="right-degrees"></span></p>
+                                <p><span id="right-index"></span></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="slider">
                     <div class="slidecontainer">
-                        <input type="range" min="-90" max="90" value={yaw} class="slider" id="myRange" />
-                        <p>Value: <span id="demo">{yaw}</span></p>
+                        <input type="range" min="-90" max="90" value="0" step=".1" class="slider" id="yaw-slider" />
+                        <p>Yaw: <span id="yaw-output"></span></p>
+                        <p>Texture Index: <span id="index-output"></span></p>
                     </div>
                 </div>
             </div>
